@@ -1,6 +1,7 @@
 import shutil
 import os
-
+import datetime
+import time
 
 movingFiles = "/Users/Student/Desktop/Folder_A"
 Destination = "/Users/Student/Desktop/Folder_B"
