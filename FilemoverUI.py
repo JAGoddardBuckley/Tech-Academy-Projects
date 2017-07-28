@@ -10,18 +10,20 @@ import time
 
 root =Tk()
 
+
+
 ####################GUI#################
 
 def load_gui():
-    source_fldr = ttk.Button(text = "Source Folder", command = askSource()).grid(row =0,
+    source_fldr = ttk.Button(text = "Source Folder", command = askSource).grid(row =0,
                             column =2, padx = 10, pady =10)
     pathLabel = ttk.Entry(text = sentF).grid(row =0, column=1, padx =10, pady =10)
 
-    destination_fldr = ttk.Button(text = "Destination Folder", command = askDestination()).grid(row = 1,
+    destination_fldr = ttk.Button(text = "Destination Folder", command = askDestination).grid(row = 1,
                                 column = 2, padx = 10, pady = 10)
     pathLabel = ttk.Entry(text = destF).grid(row = 1, column = 1, padx = 10, pady=10)
 
-    checkFile = ttk.Button(text = "Send Files", command = fileCopy()).grid(row = 2,
+    checkFile = ttk.Button(text = "Send Files", command = fileCopy).grid(row = 2,
                            column = 1, columnspan = 2, padx = 10, pady = 10)
 
    
