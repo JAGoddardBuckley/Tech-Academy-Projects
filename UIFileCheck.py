@@ -73,15 +73,13 @@ def fileCopy():
         if mtime > beforeToday:
             shutil.copy2(path, receiving)
             print (newFiles)
-##def fileTime():
+
 #last file time
 c.execute('SELECT time FROM fileTimes ORDER by time DESC')
 cTime = c.fetchone()[0]
    
             
-##def addedFunc():
-##    fileCopy()
-##    fileTime()
+
 
 
     

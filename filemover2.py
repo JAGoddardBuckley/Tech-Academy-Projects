@@ -12,7 +12,7 @@ def filemove():
 
 def FolderFinal():       
     for i in os.listdir(Destination):
-        print os.path.dirname(Destination) + '/' + i
+        print (os.path.dirname(Destination) + '/' + i)
 
 filemove()
 FolderFinal()

@@ -23,7 +23,9 @@ def sendFiles():
         
     
             
+def transferFile():
+    nowTime(NewFiles)
+    sendFiles()
 
-nowTime(NewFiles)
-sendFiles()
+transferFile()
 
