@@ -1,0 +1,33 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="ChallengePostalCalculatorHelperMethods.Default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            Postal Calculator<br />
+            <br />
+            Width:
+            <asp:TextBox ID="widthBox" runat="server" AutoPostBack="True" OnTextChanged="ChangePost"></asp:TextBox>
+            <br />
+            Height:
+            <asp:TextBox ID="heightBox" runat="server" AutoPostBack="True" OnTextChanged="ChangePost"></asp:TextBox>
+            <br />
+            Length:<asp:TextBox ID="lengthBox" runat="server" AutoPostBack="True" OnTextChanged="ChangePost"></asp:TextBox>
+            <br />
+            <asp:RadioButton ID="groundButton" runat="server" AutoPostBack="True" GroupName="postMethod" Text="Ground" OnCheckedChanged="ChangePost" />
+            <br />
+            <asp:RadioButton ID="airButton" runat="server" AutoPostBack="True" GroupName="postMethod" Text="Air" OnCheckedChanged="ChangePost" />
+            <br />
+            <asp:RadioButton ID="nextDayButton" runat="server" AutoPostBack="True" GroupName="postMethod" Text="Next Day" OnCheckedChanged="ChangePost" />
+            <br />
+            <br />
+            <asp:Label ID="resultLabel" runat="server"></asp:Label>
+        </div>
+    </form>
+</body>
+</html>
