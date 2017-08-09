@@ -135,8 +135,12 @@ namespace MegaChallenge
             moneyLabel.Text = String.Format("Player's Money: {0:C}", ViewState["Money"]);
             int money = int.Parse(ViewState["Money"].ToString());
             if (money == 0)
+            {
                 moneyLabel.Text = "You are out of money. GAME OVER.";
-            resultLabel.Text = "";
+                pullButton.Enabled = false;
+            }
+            else
+                pullButton.Enabled = true;
             return;
         }
 
