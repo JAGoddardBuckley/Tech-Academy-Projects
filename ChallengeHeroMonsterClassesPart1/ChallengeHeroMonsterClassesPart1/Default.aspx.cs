@@ -79,11 +79,11 @@ namespace ChallengeHeroMonsterClassesPart1
 
         public int Attack(Dice dice)
         {
-            //Random random = new Random();
+            
             dice.Sides = this.DamageMaximum;
-            //int damage = random.Next(this.DamageMaximum);
             return dice.Roll();
         }
+
         public void Defend(int damage)
         {
             this.Health -= damage;
