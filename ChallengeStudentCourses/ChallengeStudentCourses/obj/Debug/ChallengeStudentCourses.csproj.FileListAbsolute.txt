@@ -1,0 +1,6 @@
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\ChallengeStudentCourses\ChallengeStudentCourses\bin\ChallengeStudentCourses.dll.config
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\ChallengeStudentCourses\ChallengeStudentCourses\bin\ChallengeStudentCourses.dll
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\ChallengeStudentCourses\ChallengeStudentCourses\bin\ChallengeStudentCourses.pdb
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\ChallengeStudentCourses\ChallengeStudentCourses\obj\Debug\ChallengeStudentCourses.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\ChallengeStudentCourses\ChallengeStudentCourses\obj\Debug\ChallengeStudentCourses.dll
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\ChallengeStudentCourses\ChallengeStudentCourses\obj\Debug\ChallengeStudentCourses.pdb
