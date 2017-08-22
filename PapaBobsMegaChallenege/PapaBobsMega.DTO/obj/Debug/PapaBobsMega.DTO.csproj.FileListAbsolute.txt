@@ -1,0 +1,5 @@
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\PapaBobsMegaChallenege\PapaBobsMega.DTO\bin\Debug\PapaBobsMega.DTO.dll
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\PapaBobsMegaChallenege\PapaBobsMega.DTO\bin\Debug\PapaBobsMega.DTO.pdb
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\PapaBobsMegaChallenege\PapaBobsMega.DTO\obj\Debug\PapaBobsMega.DTO.dll
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\PapaBobsMegaChallenege\PapaBobsMega.DTO\obj\Debug\PapaBobsMega.DTO.pdb
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\PapaBobsMegaChallenege\PapaBobsMega.DTO\obj\Debug\PapaBobsMega.DTO.csprojResolveAssemblyReference.cache

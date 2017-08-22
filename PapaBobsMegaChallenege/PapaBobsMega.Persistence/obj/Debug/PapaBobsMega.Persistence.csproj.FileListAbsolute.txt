@@ -1,0 +1,12 @@
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\PapaBobsMegaChallenege\PapaBobsMega.Persistence\bin\Debug\PapaBobsMega.Persistence.dll
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\PapaBobsMegaChallenege\PapaBobsMega.Persistence\bin\Debug\PapaBobsMega.Persistence.pdb
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\PapaBobsMegaChallenege\PapaBobsMega.Persistence\obj\Debug\PapaBobsMega.Persistence.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\PapaBobsMegaChallenege\PapaBobsMega.Persistence\obj\Debug\PapaBobsMega.Persistence.dll
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\PapaBobsMegaChallenege\PapaBobsMega.Persistence\obj\Debug\PapaBobsMega.Persistence.pdb
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\PapaBobsMegaChallenege\PapaBobsMega.Persistence\bin\Debug\PapaBobsMega.DTO.dll
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\PapaBobsMegaChallenege\PapaBobsMega.Persistence\bin\Debug\PapaBobsMega.DTO.pdb
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\PapaBobsMegaChallenege\PapaBobsMega.Persistence\bin\Debug\PapaBobsMega.Persistence.dll.config
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\PapaBobsMegaChallenege\PapaBobsMega.Persistence\bin\Debug\EntityFramework.dll
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\PapaBobsMegaChallenege\PapaBobsMega.Persistence\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\PapaBobsMegaChallenege\PapaBobsMega.Persistence\bin\Debug\EntityFramework.xml
+C:\Users\Student\Desktop\Portfolio\Tech-Academy-Projects\PapaBobsMegaChallenege\PapaBobsMega.Persistence\bin\Debug\EntityFramework.SqlServer.xml
