@@ -42,6 +42,18 @@ namespace PapaBobsMega.Persistence
             return order;
         }
 
+        public static void CompleteOrder(Guid orderId)
+        {
+            var db = new PapaBobsDbEntities();
+
+            var order = db.Orders.First(p => p.OrderId == orderId);
+            order.Finished = true;
+            db.SaveChanges();
+
+
+
+        }
+
         public static List<DTO.OrderDTO> GetOrders()
         {
             var db = new PapaBobsDbEntities();

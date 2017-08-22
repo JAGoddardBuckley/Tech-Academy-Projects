@@ -12,11 +12,25 @@ namespace PapaBobsMegaChallenege
         
         protected void Page_Load(object sender, EventArgs e)
         {
+            refreshGridView();
+        }
+
+        protected void GridView1_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            int index = Convert.ToInt32(e.CommandArgument);
+            GridViewRow row = GridView1.Rows[index];
+            var value = row.Cells[1].Text.ToString();
+            var orderId = Guid.Parse(value);
+
+            PapaBobsMega.Domain.OrderManager.CompleteOrder(orderId);
+
+            refreshGridView();
+        }
+        private void refreshGridView()
+        {
             var orders = PapaBobsMega.Domain.OrderManager.GetOrders();
             GridView1.DataSource = orders;
             GridView1.DataBind();
-
         }
-        
     }
 }

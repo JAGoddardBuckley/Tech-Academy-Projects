@@ -24,6 +24,14 @@ namespace PapaBobsMega.Domain
             Persistence.OrderRepository.CreateOrder(orderDTO);
         }
 
+        public static void CompleteOrder(Guid orderId)
+        {
+            Persistence.OrderRepository.CompleteOrder(orderId);
+
+
+
+        }
+
         public static object GetOrders()
         {
             return Persistence.OrderRepository.GetOrders();
