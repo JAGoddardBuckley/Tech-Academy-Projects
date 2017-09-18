@@ -1,0 +1,7 @@
+.tooltip-inner {
+    max-height: 100px;
+    overflow-y: scroll;
+    position: relative;
+    cursor:pointer;
+    
+}
