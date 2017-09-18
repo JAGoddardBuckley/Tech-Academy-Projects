@@ -1,0 +1,17 @@
+@*Search by company*@
+    <div style="margin-top: 15px; text-align: center; padding-bottom: 15px;">
+        <form id="company-search-wrapper" class="admin-search-wrapper">
+            <div class="row">
+                <div class="col-sm-6 col-centered">
+                    <div class="input-group">
+                        <input onclick="companySearch()" id="CompanySearch" type="text" name="companyString" class="form-control" placeholder="Search @companyCount companies..." />
+                        <div class="input-group-btn">
+                            <button class="btn btn-primary" type="submit" value="search" >
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
