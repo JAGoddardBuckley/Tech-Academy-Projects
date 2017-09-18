@@ -1,0 +1,8 @@
+ <div class="col-sm-6 col-centered">
+                    <div class="input-group">
+                        <input onclick="companySearch()" id="CompanySearch" type="text" name="companyString" class="form-control" placeholder="Search @companyCount companies..." />
+                        <div class="input-group-btn">
+                            <button class="btn btn-primary" type="submit" value="search" >
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </div>
