@@ -1,0 +1,36 @@
+#CompanySearch {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    padding: 2px;
+    border: 3px solid #F0AD4E;
+    margin: auto;
+}
+var compHasBeenFocusedYet
+if (getCurentFileName() === "Admin") {  // This condition allows the table to animate once page is loaded, no click/focus needed
+    $("#company-search-wrapper").animate({ height: "35px" }, 750);
+} else {
+    $("#CompanySearch").keydown(function () { // Once they click/focus on search bar it will move up to top of page
+        if (!compHasBeenFocusedYet) {
+            compHasBeenFocusedYet = true;
+            $("#company-search-wrapper").animate({ height: "35px" }, 750);
+        };
+    });
+};
+@*Search by company*@
+    <div style="margin-top: 15px; text-align: center; padding-bottom: 15px;">
+        <form id="company-search-wrapper" class="admin-search-wrapper">
+            <div class="row">
+                <div class="col-sm-6 col-centered">
+                    <div class="input-group">
+                        <input onclick="companySearch()" id="CompanySearch" type="text" name="companyString" class="form-control" placeholder="Search @companyCount companies..." />
+                        <div class="input-group-btn">
+                            <button class="btn btn-primary" type="submit" value="search" >
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
