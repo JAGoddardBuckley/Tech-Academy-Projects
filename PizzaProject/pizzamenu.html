@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html"; charset=UTF=8">
+<meta content="width=device-width" name="viewport">
+<link href="./css/pizza.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+
+<div class="container">
+<header>Pizza Planet!</header>
+<form id="menu_form">
+	<div class="menu_size">
+	<h3>Size Options</h3>
+	<ul>
+		<input type="radio" class="size" name ="size" value="personal" checked>Personal</input>&nbsp;&nbsp; $6<br />
+		<input type="radio" class="size" name="size" value="medium">Medium</input>&nbsp;&nbsp; $10<br />
+		<input type="radio" class="size" name="size" value="large">Large</input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$14<br />
+		<input type="radio" class="size" name="size" value="extra_large">Extra Large</input>&nbsp;&nbsp;$16<br />
+	</ul>
+	</div>
+	<div class="menu_meats">
+	<h3>Meat Options</h3>
+	First one is free<br />
+	Add $1 for each extra
+	<ul>
+		<input type="checkbox" class="meats" name="meats" value="Anchovy">Anchovy</input><br />
+		<input type="checkbox" class="meats" name="meats" value="Canadian_Bacon">Canadian Bacon</input><br />
+		<input type="checkbox" class="meats" name="meats" value="Chicken">Chicken</input><br />
+		<input type="checkbox" class="meats" name="meats" value="Ground_Beef">Ground Beef</input><br />
+		<input type="checkbox" class="meats" name="meats" value="Pepperoni">Pepperoni</input><br />
+		<input type="checkbox" class="meats" name="meats value="Sausage">Sausage</input><br />
+	</ul>
+	</div>
+	<div class="menu_veg">
+	<h3>Veggie Options</h3>
+	First one is free<br />
+	Add $1 for each extra
+	<ul>
+		<input type="checkbox" class="veg" name="veg" value="Green_Peppers">Green Peppers</input><br />
+		<input type="checkbox" class="veg" name="veg" value="Jalapeno">Jalapeno</input><br />
+		<input type="checkbox" class="veg" name="veg" value="Mushrooms">Mushrooms</input><br />
+		<input type="checkbox" class="veg" name="veg" value="Olives">Olives</input><br />
+		<input type="checkbox" class="veg" name="veg" value="Onions">Onions</input><br />
+		<input type="checkbox" class="veg" name="veg" value="Pineapple">Pineapple</input><br />
+		<input type="checkbox" class="veg" name="veg" value="Spinach">Spinach</input><br />
+		<input type="checkbox" class="veg" name="veg" value="Tomatoes">Tomatoes</input><br />
+	</ul>
+	</div>
+	<div class="menu_crust">
+	<h3>Crust Options</h3>
+	<ul>
+		<input type="radio" class="crust" name="crust" value="plain" checked>Plain</input><br />
+		<input type="radio" class="crust" name="crust" value="garlic_butter">Garlic Butter</input><br />
+		<input type="radio" class="crust" name="crust" value="cheese_stuffed">Cheese Stuffed</input>&nbsp;(+$3)<br />
+		<input type="radio" class="crust" name="crust" value="spicy">Spicy </input><br />
+		<input type="radio" class="crust" name="crust" value="house_special">House Special</input><br />
+	</ul>
+	</div>
+	<div class="menu_cheese">
+	<h3>Cheese Options</h3>
+	<ul>
+		<input type="radio" class="cheese" name="cheese" value="extra">Extra </input>&nbsp;(+$3)<br />
+		<input type="radio" class="cheese" name="cheese"value="none">No Cheese</input><br />
+		<input type="radio" class="cheese" name="cheese" value="regular" checked>Regular</input><br />
+	</ul>
+	</div>
+	<div class="menu_sauce">
+	<h3>Sauce Options</h3>
+	<ul>
+		<input type="radio" class="sauce" name="sauce" value="barbecue">Barbecue </input><br />
+		<input type="radio" class="sauce" name="sauce" value="none">No Sauce</input><br />
+		<input type="radio" class="sauce" name="sauce" value="marinara" checked>Marinara </input><br />
+		<input type="radio" class="sauce" name="sauce" value="white">White </input><br />
+	</ul>
+	</div>
+</form>
+<br />
+<div id="order">
+				<div id="head1"><h3>You Ordered:</h3></div>
+				<div id="head2"><h3>Subtotal:</h3></div>
+				<div id="showhead1"></div>
+				<div id="showhead2"></div>
+				<div id="total1"><h3>Total Price:</h3></div>
+				<div id="total2"></div>
+			</div>
+			<div class="control">
+				<div class="button" onclick="getOrder()">
+					<p>Place Order</p>
+				</div>
+				<div class="button" onclick="clearForm()">
+					<p>Cancel</p>
+				</div>
+			</div>
+</div>
+<script src="./js/pizzaproject.js"></script>
+
+
+
+</body>
+
+
+
+</html>
+
+
